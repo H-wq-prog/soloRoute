@@ -1,0 +1,172 @@
+* {
+    font-family: var(--mainFont);
+}
+
+.navbar {
+    height: 60px;
+}
+
+.links ul {
+    list-style: none;
+    width: 310px;
+    margin: 0;
+
+}
+
+.links ul li {
+    color: var(--parColor);
+    font-size: 16px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.links ul li::after{
+    transition: all 0.5s ease-in-out;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--mainColor);
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+.links ul li:hover {
+color: var(--mainColor);
+font-weight: 500;
+}
+
+.links ul li:hover::after{
+width: 100%;
+}
+
+
+
+
+
+.butn {
+    background-color: var(--mainColor);
+    border: none;
+    color: white;
+    padding: 4px 18px;
+    border-radius: 100px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid var(--mainColor);
+}
+
+.butn:hover {
+    border: 2px solid var(--mainColor);
+    background-color: transparent;
+    color: var(--mainColor);
+}
+
+.landig{
+    background-color: var(--backColor);
+    width:100%;
+    height:auto;
+}
+
+.shadw{
+    width: 200px;
+    height: 200px;
+    background-color: var(--effictColor);
+    border-radius: 50%;
+        box-shadow: 0px 107px 43px 74px var(--effictColor);
+    position: absolute;
+    top: -85px;
+}
+
+.landig h1{
+    width: 500px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--mainColor);
+    margin-bottom: 30px;
+}
+
+.landig h1 span{
+    color: var(--scindPColor);
+}
+
+.landig p{
+    width: 585px;
+    text-align: center;
+    color: var(--parColor);
+    margin-bottom:40px ;
+}
+
+.landig .image{
+    position: relative;
+    width: 50%;
+}
+.landig .image::after{
+content: " \e574     Document Secured";
+background-color: rgba(255, 255, 255, 0.2);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+color: var(--scindPColor);
+font-family: "Font Awesome 6 Free";
+font-weight: 900;
+font-size: 10px;
+letter-spacing: 1.5px;
+width: 170px;
+height: auto ;
+padding: 20px  0px   ;
+border-radius: 16px;
+position: absolute;
+top: 30px;
+right: 30px;
+display: flex;
+justify-content: center;
+
+}
+
+.landig .image img{
+    width: 100%;
+    border: 8px solid white;
+    border-radius: 24px;
+}
+
+
+.mainroul{
+    width: 100%;
+
+}
+    .roul{
+width: 200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+    }
+
+    .roul p {
+         width: 255px;
+
+    }
+
+    .roul span{
+        width: 40px ;
+        height: 40px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid var(--parColor);
+        border-radius: 50%;
+        margin: 0 0 20px 0;
+        position: relative;
+
+    }
+    .roul .line::after{
+    content: "";
+    width: 328px;
+    height: 2px;
+    background-image: linear-gradient(to right, hsl(198, 78%, 64% , 0.8) , #5bc0eb00);
+    position: absolute;
+    right: -750%;
+    z-index: -1;
+    }
+
+    

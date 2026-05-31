@@ -1,0 +1,54 @@
+
+
+.cards h1{
+    width: 600px;
+    position: relative;
+
+}
+
+.cards h1::after{
+    content: "";
+    width: 15%;
+    height: 4px;
+    background-color: var(--parColor);
+    position: absolute;
+    bottom: -10px;
+    left: 44%;
+    border-radius: 50px;
+}
+
+.card {
+    width: 290px;
+    height: 236px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    
+}
+.card h3{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px 0 20px 0 ;
+    color: var(--scindPColor);
+}
+.card i{
+    color: var(--mainColor);
+    width: 54px;
+    height: 54px;
+    background-color: var(--backColor);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.card span{
+    font-size: 12px;
+    font-weight: 300;
+    width: 70%;
+    color: var(--parColor);
+}
+
+
+
+
+

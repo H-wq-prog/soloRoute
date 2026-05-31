@@ -1,0 +1,42 @@
+.title h2{
+        color: var(--scindPColor);
+    font-weight: 700;
+    font-size: 48px;
+}
+.title p{
+     width: 448px;
+    text-align: start;
+}
+
+.data h2{
+    color: var(--mainColor);
+    font-size: 40px;
+}
+.data span{
+    color: var(--parColor);
+    font-size: 14px;
+}
+
+.image{
+background-color: var(--backColor);
+box-shadow: 0 20px 40px 0 rgba(0, 101, 112, 0.05);
+position: relative;
+overflow: hidden;
+}
+
+.image img{
+    box-shadow: 9px 9px 10px -7px #0000003b;
+    border-radius: 20px;
+}
+
+
+.shadw{
+    width: 200px;
+    height: 200px;
+    background-color: var(--effictColor);
+    border-radius: 50%;
+        box-shadow: 0px 107px 43px 74px var(--effictColor);
+    position: absolute;
+    top: -140px;
+    right: -11%;
+}
